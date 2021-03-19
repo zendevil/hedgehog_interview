@@ -8,7 +8,7 @@ Back-end coding assessment for potential Hedgehog hires. You may use any tools o
 - Support connections from multiple clients using WebSockets
 - Create a REST subscription endpoint that clients can hit to start and stop streaming data on a currency pair
 - Forward streaming data from the Coinbase Pro streaming API to any subscribed clients
-- Use git to track your progress on a branch titled `$FULL_NAME` and leave commit messages as if this was your job
+- Use git to track your progress on a branch titled with your full name and leave commit messages as if this was your job
 
 # Stretch Goals
 
