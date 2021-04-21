@@ -3,7 +3,7 @@ Back-end coding assessment for potential Hedgehog hires. You may use any tools o
 
 # The Assesment
 
-- Configure a master server with n workers determined at run-time using an environment variable titled `WEB_CONCURRENCY`
+- Configure a load balancer or server cluster with n workers determined at run-time using an environment variable `WEB_CONCURRENCY`
 - Connect to the [Coinbase Pro streaming API](https://docs.pro.coinbase.com/#subscribe)
 - Support connections from multiple clients using WebSockets
 - Create a REST subscription endpoint that clients can hit to start and stop streaming data on a currency pair
