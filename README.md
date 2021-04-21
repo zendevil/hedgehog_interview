@@ -11,7 +11,7 @@ Back-end coding assessment for potential Hedgehog hires. You may use any tools o
 - Use git to track your progress on a branch titled with your full name joined by dashes, and leave commit messages as if this was your job
 - Your first commit should include an integer hour estimate for the time to completion
 
-# Stretch Goals
+# Stretch Goals (NOT REQUIRED!)
 Want to show us something else? Feel free to show-off what you can do. None of these are required at all, but here are a few sample ideas:
 - Implement the number of tests you feel is appropriate
 - Containerize the solution for easy sharing and deployment
