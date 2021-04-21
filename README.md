@@ -12,7 +12,7 @@ Back-end coding assessment for potential Hedgehog hires. You may use any tools o
 - Your first commit should include an integer hour estimate for the time to completion
 
 # Stretch Goals
-
+Want to show us something else? Feel free to show-off what you can do. None of these are required at all, but here are a few sample ideas:
 - Implement the number of tests you feel is appropriate
 - Containerize the solution for easy sharing and deployment
 - Build a CI/CD pipeline in the tool of your choice
