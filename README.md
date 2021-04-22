@@ -6,7 +6,7 @@ We do not expect you to spend more than 6 hours on this test, but you may work o
 - Configure a load balancer or server cluster with n workers determined at run-time using an environment variable `WEB_CONCURRENCY`
 - Connect to the [Coinbase Pro streaming API](https://docs.pro.coinbase.com/#subscribe)
 - Support connections from multiple clients using WebSockets
-- Create a REST subscription endpoint at /api/v1/subscribe/:pair that clients can hit to start and stop streaming data on a currency pair
+- Create a REST subscription endpoint at `/api/v1/subscribe/:pair` that clients can hit to start and stop streaming data on a currency pair
 - Forward streaming data from the Coinbase Pro streaming API to any subscribed clients
 - Use git to track your progress on a branch titled with candidate followed by a dash, and your full name joined by underscores (ie `candidate-full_name`), and leave commit messages as if this was your job
 - Your first commit should include an integer hour estimate for the time to completion
