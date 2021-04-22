@@ -1,7 +1,7 @@
 # hedgehog-gauntlet-be
-Back-end coding assessment for potential Hedgehog hires. You may use any tools or languages you are comfortable with. The challenge is deliberately generic to see how you conceptualize the problem statement and the solution space.
+Back-end coding assessment for potential Hedgehog hires. You may use any tools or languages you are comfortable with. The challenge is deliberately generic to see how you conceptualize the problem statement and the solution space. That being said, if you have any questions or concerns, please let us know! We're happy to give more clarity.
 
-# The Assesment
+# The Assessment
 We do not expect you to spend more than 6 hours on this test, but you may work on it as much as you need or want while you have access. Please work to complete the requirements under **The Assessment** before you even consider the items under **Stretch Goals**. Understand that we are aware of your experience and expertise, so we know if this is outside your wheelhouse. We want to see any sort of progress you can make toward a solution.
 - Configure a load balancer or server cluster with n workers determined at run-time using an environment variable `WEB_CONCURRENCY`
 - Connect to the [Coinbase Pro streaming API](https://docs.pro.coinbase.com/#subscribe)
