@@ -3,11 +3,11 @@ Back-end coding assessment for potential Hedgehog hires. You may use any tools o
 
 # The Assessment
 We do not expect you to spend more than 6 hours on this test, but you may work on it as much as you need or want while you have access. Please work to complete the requirements under **The Assessment** before you even consider the items under **Stretch Goals**. Understand that we are aware of your experience and expertise, so we know if this is outside your wheelhouse. We want to see any sort of progress you can make toward a solution.
-- Configure a load balancer or server cluster to accept and distribute client requests across multiple processes
 - Connect to the [Coinbase Pro streaming API](https://docs.pro.coinbase.com/#subscribe)
 - Allow multiple clients to connect to your service using WebSockets or Streams
 - Create a REST subscription endpoint at `/api/v1/subscribe/:pair` that clients can hit to start and stop streaming data on a currency pair
 - Forward streaming data from the Coinbase Pro streaming API to any subscribed clients
+- Configure a load balancer or server cluster to accept and distribute client requests across multiple processes
 - Use git to track your progress on a branch titled with candidate followed by a dash, and your full name joined by underscores (ie `candidate-full_name`), and leave commit messages as if this was your job
 - Your first commit should include an integer hour estimate for the time to completion
 
