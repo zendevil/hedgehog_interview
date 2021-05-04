@@ -3,7 +3,7 @@
 You can run the server locally by downloading ``target/uberjar/hedgehog-interview.jar`` to your local machine and running `java -jar hedgehog-interview.jar`. The websocket is exposed on the port `8982` and the http server is exposed on `3000`.
 Make sure that both your websocket connection and your http requests contain the header `client-id`. The value of `client-id` can be any string.
 To start and stop the streaming for a client, you'd have to make the request with the same `client-id` that you created the websocket connection with (specified in the header).
-I'm still working on launching multiple processes over a K8s cluster and deploying it on AWS EKS. 
+I'm still working on launching multiple processes over a K8s cluster and deploying it on AWS EKS with a load balancer. 
 
 
 # hedgehog-gauntlet-be
