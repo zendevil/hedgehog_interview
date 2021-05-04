@@ -4,6 +4,7 @@ You can run the server locally by downloading ``target/uberjar/hedgehog-intervie
 Make sure that both your websocket connection and your http requests contain the header `client-id`. The value of `client-id` can be any string.
 To start and stop the streaming for a client, you'd have to make the request with the same `client-id` that you created the websocket connection with (specified in the header).
 I'm still working on launching multiple processes over a K8s cluster and deploying it on AWS EKS with a load balancer. 
+Docker image: https://hub.docker.com/repository/docker/prikshet/hedgehog-interview/
 
 
 # hedgehog-gauntlet-be
