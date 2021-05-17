@@ -1,3 +1,13 @@
+# Prikshet's message
+
+You can run the server locally by downloading ``target/uberjar/hedgehog-interview.jar`` to your local machine and running `java -jar hedgehog-interview.jar`. The websocket is exposed on the port `8982` and the http server is exposed on `3000`.
+Make sure that both your websocket connection and your http requests contain the header `client-id`. The value of `client-id` can be any string.
+To start and stop the streaming for a client, you'd have to make the request with the same `client-id` that you created the websocket connection with (specified in the header).  
+I'm still working on launching multiple processes over a K8s cluster and deploying it on AWS EKS with a load balancer.   
+Docker image: https://hub.docker.com/repository/docker/prikshet/hedgehog-interview/  
+For a live code walkthrough, book me by clicking: https://calendly.com/prit-s  
+Please create an issue instead of emailing me.
+
 # **hedgehog-gauntlet-be**
 
 Back-end coding assessment for potential Hedgehog hires. You may use any tools or languages you are comfortable with. The challenge is deliberately generic to see how you conceptualize the problem statement and the solution space. That being said, if you have any questions or concerns, please let us know! We're happy to give more clarity.
